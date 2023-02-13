@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sports1",
+  "info": {
+    "singularName": "sports",
+    "pluralName": "sports1",
+    "displayName": "sports"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
