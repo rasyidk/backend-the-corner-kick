@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * sports service
+ * sport service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::sports.sports');
+module.exports = createCoreService('api::sport.sport');

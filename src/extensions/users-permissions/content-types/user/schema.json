@@ -68,6 +68,12 @@
       "relation": "oneToMany",
       "target": "api::footballsports1.footballsports1",
       "mappedBy": "user"
+    },
+    "sports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sport.sport",
+      "mappedBy": "user"
     }
   }
 }

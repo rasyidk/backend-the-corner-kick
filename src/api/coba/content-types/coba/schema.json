@@ -1,26 +1,29 @@
 {
   "kind": "collectionType",
-  "collectionName": "sports1",
+  "collectionName": "cobas",
   "info": {
-    "singularName": "sports",
-    "pluralName": "sports1",
-    "displayName": "sports"
+    "singularName": "coba",
+    "pluralName": "cobas",
+    "displayName": "coba"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
-    "email": {
+    "alamat": {
       "type": "string"
     },
-    "address": {
+    "umur": {
+      "type": "string"
+    },
+    "makanan": {
+      "type": "string"
+    },
+    "haha": {
       "type": "string"
     }
   }

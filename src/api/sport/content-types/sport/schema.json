@@ -1,14 +1,14 @@
 {
   "kind": "collectionType",
-  "collectionName": "footballsports11",
+  "collectionName": "sports",
   "info": {
-    "singularName": "footballsports1",
-    "pluralName": "footballsports11",
-    "displayName": "footballsports",
+    "singularName": "sport",
+    "pluralName": "sports",
+    "displayName": "sport",
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -43,7 +43,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
-      "inversedBy": "footballsports"
+      "inversedBy": "sports"
     }
   }
 }

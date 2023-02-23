@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * sports controller
+ * sport controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::sports.sports');
+module.exports = createCoreController('api::sport.sport');
